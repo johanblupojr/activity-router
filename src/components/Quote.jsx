@@ -30,6 +30,7 @@ const RichardStyle = {
   };
 
 function Quote() {
+  
   return (
     <div className='quotestyle' style={quoteComponentStyle}>
       <img src={Star} alt="" style={starStyle} />
