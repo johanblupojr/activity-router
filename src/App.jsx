@@ -18,7 +18,7 @@ function App() {
           {/* <Home /> */}
           {/* <NavNames /> */}
           <Switch>
-            <Route exact path="/activity-router" component={Root} />
+            <Route exact path="/" component={Root} />
             <Route path="/contact" component={Contact} />
             <Route path="/home" component={Home} />
             <Route path="/product" component={Product} />
