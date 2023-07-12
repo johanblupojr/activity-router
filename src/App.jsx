@@ -17,19 +17,19 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: "contact",
+                path: "/contact",
                 element: <Contact />,
             },
             {
-                path: "activity-router",
+                path: "/activity-router",
                 element: <Home />,
             },
             {
-                path: "product",
+                path: "/product",
                 element: <Product />,
             },
             {
-                path: "about",
+                path: "/about",
                 element: <About />,
             },
         ],
@@ -43,7 +43,7 @@ function App() {
             <div className="nav-bar">
                 {/* <Home /> */}
                 {/* <NavNames /> */}
-                <RouterProvider router={router} />
+                <RouterProvider router={router} basename="/activity-router" />
             </div>
         </div>
     );
