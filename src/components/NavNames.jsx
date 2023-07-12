@@ -7,7 +7,7 @@ function NavNames() {
     const data = [
         {
             nav: "Home",
-            link: "/activity-router",
+            link: "/activity-router/",
         },
         {
             nav: "About",
