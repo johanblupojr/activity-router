@@ -1,29 +1,32 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 const logo = "/src/images/logo.png";
+
 function NavNames() {
     const data = [
         {
             nav: "Home",
-            link: "activity-router",
+            link: "/activity-router",
         },
         {
             nav: "About",
-            link: "about",
+            link: "/activity-router/about",
         },
         {
             nav: "Product",
-            link: "product",
+            link: "/activity-router/product",
         },
         {
             nav: "Contact",
-            link: "contact",
+            link: "/activity-router/contact",
         },
         {
             nav: "Login",
-            link: "login",
+            link: "/activity-router/login",
         },
     ];
+
     const listItems = data.map((element, index) => {
         return (
             <ul key={index} style={{ listStyle: "none" }}>
@@ -35,6 +38,7 @@ function NavNames() {
             </ul>
         );
     });
+
     return (
         <div className="navigation">
             <div className="title">
