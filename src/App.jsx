@@ -44,7 +44,7 @@ function App() {
             <div className="nav-bar">
                 {/* <Home /> */}
                 {/* <NavNames /> */}
-                <RouterProvider router={router} basename="/activity-router" />
+                <RouterProvider router={router} />
             </div>
         </div>
     );
