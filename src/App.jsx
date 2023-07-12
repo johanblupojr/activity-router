@@ -17,7 +17,7 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: "/contact",
+                path: "/activity-router/contact",
                 element: <Contact />,
             },
             {
@@ -25,16 +25,16 @@ const router = createBrowserRouter([
                 element: <Home />,
             },
             {
-                path: "/product",
+                path: "/activity-router/product",
                 element: <Product />,
             },
             {
-                path: "/about",
+                path: "/activity-router/about",
                 element: <About />,
             },
         ],
     },
-    { path: "login", element: <Login /> },
+    { path: "/activity-router/login", element: <Login /> },
 ]);
 
 function App() {
