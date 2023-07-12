@@ -1,11 +1,11 @@
 import TextDetails from "../components/TextDetails";
 import Quote from "../components/Quote"
-import FacebookMessengerChat1 from "../components/messenger1";
+import FacebookMessengerChat from "../components/messenger1";
 
 export default function Home(){
     return (
     <>
-    <FacebookMessengerChat1/>
+    <FacebookMessengerChat pageId={"104588581239094"}/>
     <TextDetails />
     <Quote />
     </>
